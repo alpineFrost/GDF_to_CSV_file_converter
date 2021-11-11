@@ -1,0 +1,18 @@
+nodedef>name VARCHAR,label VARCHAR
+s1,Site number 1
+s2,Site number 2
+s3,Site number 3
+s4,Site number 4
+s5,site number 5
+edgedef>node1 VARCHAR,node2 VARCHAR
+s1,s2
+s2,s3
+s3,s2
+s3,s1
+s4,s1
+s4,s2
+s4,s3
+s4,s4
+s5,s5
+s5,s4
+s3,s5
